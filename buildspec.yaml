@@ -3,7 +3,7 @@ version: 0.2
 env:
   variables:
     REPOSITORY_URI: 828414849441.dkr.ecr.us-east-1.amazonaws.com/product-app-repo
-    CONTAINER_NAME: product-app-repo    # ← set this to the name used in your ECS task
+    CONTAINER_NAME: productapp    # ← set this to the name used in your ECS task
     # (optional) IMAGE_TAG can be computed instead of exported below
 
 phases:
